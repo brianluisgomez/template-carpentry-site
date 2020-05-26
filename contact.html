@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get all of your cabinet needs.">
+    <meta name="author" content="Brian Gomez">
+    <meta name="keywords" content="cabinets, trim">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Your Custom Carpentry | Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/slate/bootstrap.min.css"
+    />
+    <script src="main.js"></script> 
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Your</span> Custom Carpentry</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li class="current">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container highlight">
+            <h1>Custom <span class="highlight">Carpentry</span> Solutions</h1>
+            <p>We are here to serve all of your Custom Carpentry and Cabinetry needs. We specialize in interior and exterior remodels and a number of other facets of home improvement. All of our work is fully insured!</p>
+        </div>
+    </section>
+    <section id="main">
+        <div class="contact-form">
+                <form method="POST" data-netlify="true">
+                <fieldset>
+                <legend><span class="number">1</span> Contact Info</legend>
+                <input type="text" name="name" placeholder="Your Name *">
+                <input type="text" name="phone" placeholder="Your Phone Number *">
+                <input type="email" name="email" placeholder="Your Email *">
+                <input type="text" name="project address" placeholder="Project Address *">
+                
+                </fieldset>
+                <fieldset><legend><span class="number">2</span> Project Type</legend>
+                <label for="job">Please select one or more of the following project types to help us know how best to assist you when we contact you. If you feel that a category does not properly describe the type of work you need completed, please select the “other” category. In addition to selecting one or more of following categories, please provide a brief description of the project for which you are requesting assistance. </label>
+                
+                <label><input type="checkbox"   name="project-type[]" value="Bathroom Remodel/Addition">Bathroom Remodel/Addition	</label>
+                <label><input type="checkbox"   name="project-type[]" value="Kitchen Remodel/Addition">Kitchen Remodel/Addition</label>
+                <label><input type="checkbox"   name="project-type[]" value="Trim work">Trim work</label>
+                <label><input type="checkbox"   name="project-type[]" value="Other Interior Remodels/Additions">Other Interior Remodels/Additions</label>
+                <label><input type="checkbox"   name="project-type[]" value="Cabinetry">Cabinetry</label>
+                <label><input type="checkbox"   name="project-type[]" value="Exterior Remodel/Addition">Exterior Remodel/Addition</label>
+                <label><input type="checkbox"   name="project-type[]" value="Deck Remodel/Addition">Deck Remodel/Addition</label>
+                <label><input type="checkbox"   name="project-type[]" value="Rot and Exterior Repairs">Rot and Exterior Repairs</label>
+                <label><input type="checkbox"   name="project-type[]" value="Other Minor Repairs">Other Minor Repairs</label>
+                <label><input type="checkbox"   name="project-type[]" value="Other Major Repairs">Other Major Repairs</label>
+                <label><input type="checkbox"   name="project-type[]" value="Flooring Installation">Flooring Installation</label>
+                <label><input type="checkbox"   name="project-type[]" value="Window/Door Installation">Window/Door Installation</label>
+                <label><input type="checkbox"   name="project-type[]" value="other">Other</label>
+                
+                  
+              
+                
+                  
+                </fieldset>
+                <fieldset>
+                <legend><span class="number">3</span> Project Description</legend>
+                <textarea name="description" placeholder="Brief Description of Job Details: "></textarea>
+                <textarea name="questions" placeholder="Please List Any Questions You May Have Here:"></textarea>
+                <div data-netlify-recaptcha="true"></div>
+                </fieldset>
+                <input type="submit" value="Submit" />
+                </form>
+                </div>
+        </div>
+
+
+
+    </section>
+  
+    <section id="boxes">
+        <div class="container">
+          <div class="box container">
+            <img src="img/Interior Remodel Icon.JPG" />
+            <h3><br />Interior Remodels</h3>
+          </div>
+          <div class="box container">
+            <img src="img/Decks and Additions Icon.JPG" />
+            <h3><br />Decks and Additions</h3>
+          </div>
+          <div class="box container">
+            <img src="img/Custom Trim and Cabinetry Icon.JPG" />
+            <h3><br />Custom Trim and Cabinetry</h3>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <p>Your Custom Carpentry, LLC, Copyright &copy; 2016</p>
+    </footer>
+</body>
+</html>
